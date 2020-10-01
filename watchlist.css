@@ -12,6 +12,12 @@ body{
 	background-color: #353640;
 	color: #E0F0F2;
 }
+/*==LINKS==*/
+a{
+	color: skyblue;
+	font-size: 15px;
+	font-family: arial;
+}
 /*--ALL THE ANIME--*/
 .ulanime{
 	color: #26DDBC;
@@ -27,7 +33,7 @@ body{
 /*AoT SERIES*/
 .olaot{
 	color:#E0F0F2;
-	
+
 }
 /*--ANIME SAUUUUUUUUCCCCEEEE--*/
 .title{
@@ -56,5 +62,7 @@ body{
 	font-weight: normal;
 	font-size: 14px;
 	margin: 0px;
-
+}
+footer{
+	background-color: 
 }
