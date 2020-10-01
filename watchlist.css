@@ -1,3 +1,6 @@
+html{
+	margin-left: 5px;
+}
 /*==HEADER==*/
 header{
 	font-size: 50px; 
@@ -64,5 +67,8 @@ a{
 	margin: 0px;
 }
 footer{
-	background-color: 
+	background-color: #82E0AA;
+	color: black; 
+	margin: 20px;
+	padding: 10px;
 }
