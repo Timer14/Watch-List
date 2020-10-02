@@ -11,6 +11,7 @@ header{
 }
 .headerdesc{
 	font-size: 25px;
+	color: 
 }
 body{
 	margin-right: 100px;
@@ -24,13 +25,36 @@ a{
 	font-size: 15px;
 	font-family: arial;
 }
+/*==YT Trailers==*/
+* {
+	box-sizing: border-box;
+}
+iframe{
+	border: 4px solid rgba(255, 0, 0, 0.5);
+}
+.ggotrailer{
+	float: left;
+  	width: 50%;
+}
+.alice1trailer{
+	float: left;
+	width: 50%;
+}
+.alice2trailer{
+	float: left;
+	width: 50%;
+}
+.clearfix: :after{
+  content: "";
+  clear: both;
+  display: table;
+}
 /*--ALL THE ANIME--*/
 .ulanime{
 	color: #26DDBC;
 }
 /*--ALL THEIR NAMES--*/
 .animetitles{
-
 }
 /*SAO SERIES*/
 .olsao{
@@ -71,6 +95,8 @@ a{
 }
 .trailers{
 	margin: 0px;
+	font-family: -apple-system, BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji", arial;
+	font-style: italic;
 }
 footer{
 	background-color: #55B6B0;
