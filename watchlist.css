@@ -20,16 +20,19 @@ body{
 	color: #E0F0F2;
 }
 /*==LINKS==*/
-a:link{
+a:link, a:visited{
 	color: skyblue;
 	font-size: 15px;
 	font-family: arial;
+	background-color: orange;
+	padding: 7.5px 15px
 }
 a:visited{
-	color: green;
+	color: black;
 }
 a:hover{
 	color: limegreen;
+	background-color: yellow;
 }
 a:active{
 	color: #1BEDDB;
@@ -40,6 +43,8 @@ a:active{
 }
 iframe{
 	border: 4px solid rgba(255, 0, 0, 0.5);
+	max-width: 660px;
+	margin: auto;
 }
 .ggotrailer{
 	float: left;
