@@ -4,14 +4,14 @@ html{
 /*==HEADER==*/
 header{
 	font-size: 50px; 
-	font-style: bolder;
+	font-style: oblique;
 	margin: 10px 10px;
 	padding-left: 7px;
 	background-image: url('imgref/default_cover.jpg');
 }
 .headerdesc{
 	font-size: 25px;
-	color: 
+	color: #45c2b7;
 }
 body{
 	margin-right: 100px;
@@ -20,10 +20,19 @@ body{
 	color: #E0F0F2;
 }
 /*==LINKS==*/
-a{
+a:link{
 	color: skyblue;
 	font-size: 15px;
 	font-family: arial;
+}
+a:visited{
+	color: green;
+}
+a:hover{
+	color: limegreen;
+}
+a:active{
+	color: #1BEDDB;
 }
 /*==YT Trailers==*/
 * {
@@ -45,13 +54,14 @@ iframe{
 	width: 50%;
 }
 .clearfix: :after{
-  content: "";
+  content: "normal";
   clear: both;
   display: table;
 }
 /*--ALL THE ANIME--*/
 .ulanime{
 	color: #26DDBC;
+	list-style-type: square;
 }
 /*--ALL THEIR NAMES--*/
 .animetitles{
@@ -68,13 +78,32 @@ iframe{
 /*--ANIME SAUUUUUUUUCCCCEEEE--*/
 .title{
 	font-size: 19px;
-	font-family: -apple-system, BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji", arial;
+	font-family: -apple-system, BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 	color: #7DF413;
+}
+.caps{
+	font-weight: normal;
+	font-style: italic;
+	color: #FF0000;
+}
+table, th, td{
+	border-collapse: collapse;
+	border: solid 1px;
+	font-size: 15px;
+	color:#EEEEEE;
+	padding: 5px;
+	font-weight: normal;
+	width: 600px;
+}
+th{
+	font-weight: 500;
+	color: #FF0000;
+	border-color: #EEEEEE;
 }
 	/*--ANIME DESCRIPTION--*/
 	.desc{
 		font-size: 15px;
-		font-family: -apple-system, BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji", arial;
+		font-family: -apple-system, BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 		color: #7DF413;
 		font-weight: normal;
 		color:#E0F0F2;
@@ -92,10 +121,11 @@ iframe{
 	font-weight: normal;
 	font-size: 14px;
 	padding-left: 5px; 
+	margin-top: 0px;
 }
 .trailers{
 	margin: 0px;
-	font-family: -apple-system, BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji", arial;
+	font-family: -apple-system, BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 	font-style: italic;
 }
 footer{
